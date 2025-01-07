@@ -1,0 +1,9 @@
+:root {
+  --iblack: rgba(0, 0, 0, 1);
+  --idark-blue: rgba(36, 54, 94, 1);
+  --ilight-turquose: rgba(103, 201, 203, 1);
+  --ipink-red: rgba(223, 77, 85, 1);
+  --iyellow: rgba(247, 206, 71, 1);
+  --iwhite: rgba(255, 255, 255, 1);
+  --iturqiose: rgba(67, 151, 152, 1);
+}
