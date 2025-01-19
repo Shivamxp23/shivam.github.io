@@ -1,0 +1,69 @@
+.block {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to new lines if needed */
+    gap: 32px; /* Space between child elements */
+    padding: 24px; /* Adjust padding for smaller screens */
+    justify-content: space-between; /* Distribute children dynamically */
+    align-items: center; /* Align items vertically in the center */
+    background-color: #f0f6ff;
+    border-radius: 42px;
+    overflow: hidden;
+    width: 100%; /* Make block full width of its container */
+    max-width: 1200px; /* Limit maximum size */
+    margin: 0 auto; /* Center the block horizontally */
+    box-sizing: border-box; /* Include padding in the element's width/height */
+  }
+  
+  .block .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px; /* Allow the text section to resize flexibly */
+    max-width: 600px; /* Set a maximum width for better readability */
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .block .text-wrapper {
+    font-family: "Outfit-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--iblack);
+    font-size: clamp(24px, 5vw, 48px); /* Responsive font size */
+    line-height: 1.2;
+    margin: 0; /* Remove extra margin for better spacing */
+  }
+  
+  .block .div {
+    opacity: 0.8; /* Improve visibility */
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--idark-blue);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .block .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 auto; /* Allow the button to adjust its size */
+    padding: 12px 24px; /* Add padding for touch-friendly interaction */
+    background-color: var(--ilight-turquose);
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Outfit-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .block .button:hover {
+    background-color: #45a1a3; /* Slightly darker turquoise on hover */
+  }
+  
+  .block .button img {
+    margin-left: 8px; /* Add spacing between text and image */
+    width: 16px; /* Adjust icon size */
+    height: 16px;
+  }
