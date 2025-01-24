@@ -28,8 +28,21 @@
     font-weight: 600;
     color: var(--iblack);
     font-size: clamp(24px, 5vw, 48px); /* Responsive font size */
+    width: clamp(350px, 15vw, 389px);
     line-height: 1.2;
+    letter-spacing: -0.96px;
     margin: 0; /* Remove extra margin for better spacing */
+  }
+
+  /* Here right now with Para in the footer box fix that then move to next */
+  .block .p {
+    font-family: "Outfit-SemiBold", Helvetica;
+    color:#b6c0d2;
+    font-size: clamp(12px, 3vw, 18px); /* Responsive font size */
+    width: clamp(350px, 5vw, 389px);
+    line-height: 1;
+    letter-spacing: 1px;
+    /* width: clamp(350px, 500vw, 800px); */
   }
   
   .block .div {
